@@ -1,0 +1,5 @@
+[
+{"id":"p_aurelia","name":"Aurelia","category":"Luxury Jewellery Concept","description":"Editorial storefront with cinematic product reveals and a quiet, gold-lit palette.","url":"","thumb":"","c1":"#2a1d0b","c2":"#d9b25f","published":true,"order":1},
+{"id":"p_vertex","name":"Vertex","category":"Fintech Platform Concept","description":"Dark data-first landing page with a live-feel dashboard hero.","url":"","thumb":"","c1":"#06172e","c2":"#3aa0ff","published":true,"order":2},
+{"id":"p_halo","name":"Halo Studio","category":"Wellness Brand Concept","description":"Soft, airy booking experience with calm motion and generous space.","url":"","thumb":"","c1":"#12261f","c2":"#b8ff2c","published":true,"order":3}
+]

@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: noir-x11
+    runtime: node
+    plan: starter            # persistent disk needs a paid plan
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /healthz
+    envVars:
+      - key: ADMIN_PASSWORD
+        sync: false          # you type it in the Render dashboard
+      - key: DATA_DIR
+        value: /var/data
+    disk:
+      name: noir-data
+      mountPath: /var/data
+      sizeGB: 1
